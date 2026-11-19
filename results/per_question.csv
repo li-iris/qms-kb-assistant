@@ -1,0 +1,91 @@
+mode,id,type,user,question,answer,correct,refused,stale,leaked,cite_ok
+baseline,V01,version,质检员,注射力测试每批抽多少支？,【已作废版本】每批成品随机抽取 10 支进行注射力测试。［SOP-QC-003 v1.0 §2］,False,False,True,False,
+baseline,V02,version,质检员,注射力合格的上限是多少牛？,【已作废版本】单支注射力不超过 20 N 为合格。［SOP-QC-003 v1.0 §4］,False,False,True,False,
+baseline,V03,version,质检员,注射力测试的环境温度要求是多少？,【已作废版本】测试环境温度 18–26°C，相对湿度 30%–70%。［SOP-QC-003 v1.0 §3］,False,False,True,False,
+baseline,V04,version,质量经理,注射力测试的湿度范围？,【已作废版本】规定 AI-01 自动注射器注射力测试的方法和接收标准。［SOP-QC-003 v1.0 §1］,False,False,False,False,
+baseline,V05,version,质检员,注射力超标了怎么判定这一批？,任一支超过 15 N 即判该批不合格并启动偏差调查。［SOP-QC-003 v2.0 §4］,True,False,False,False,True
+baseline,V06,version,质检员,注射力测试前样品要平衡多久？,测试环境温度 15–25°C，相对湿度 30%–65%，样品测试前需在该环境下平衡 4 小时。［SOP-QC-003 v2.0 §3］,True,False,False,False,True
+baseline,H01,history,质检员,旧版注射力测试规程每批抽多少支？,【已作废版本】每批成品随机抽取 10 支进行注射力测试。［SOP-QC-003 v1.0 §2］,True,False,False,False,True
+baseline,H02,history,质检员,注射力测试规程这次变更改了什么？,【已作废版本】规定 AI-01 自动注射器注射力测试的方法和接收标准。［SOP-QC-003 v1.0 §1］,False,False,False,False,
+baseline,N01,normal,质检员,AI-01 单次注射时间要求不超过多少秒？,完成单次注射的时间不超过 15 秒；［DI-AI01 v3.1 §2］,True,False,False,False,True
+baseline,N02,normal,质检员,设计验证里平均注射时间是多少？,共测试 60 支样品，平均注射时间 9.8 秒，最长 12.4 秒，全部满足设计输入中不超过 15 秒的要求。［VR-AI01-07 v1.0 §1］,True,False,False,False,True
+baseline,N03,normal,客服实习生,注射器没用之前应该怎么储存？,未使用的注射器在 2–8°C 冷藏保存，使用前在室温放置 30 分钟。［IFU-AI01 v1.1 §1］,True,False,False,False,True
+baseline,N04,normal,客服实习生,推荐在身体哪个部位注射？,推荐注射部位为腹部或大腿前侧，避开肚脐周围 5 厘米。［IFU-AI01 v1.1 §2］,True,False,False,False,True
+baseline,N05,normal,质检员,一般客户投诉要在多少天内关闭？,一般投诉须在 30 个自然日内完成调查并关闭。［SOP-QA-011 v1.2 §3］,True,False,False,False,True
+baseline,N06,normal,质检员,可能涉及不良事件的投诉多久内要上报？,涉及可能的不良事件时，须在 24 小时内上报质量负责人。［SOP-QA-011 v1.2 §2］,True,False,False,False,True
+baseline,N07,normal,质检员,质检人员培训要在什么时候前完成？,所有质检人员须在 2026 年 7 月 1 日前完成培训并考核合格。［TR-QC-2026 v1.0 §2］,True,False,False,False,
+baseline,N08,normal,客服实习生,注射完成后要按压几秒？,注射完成后保持按压 5 秒再移开，看到观察窗变色表示注射完成。［IFU-AI01 v1.1 §3］,True,False,False,False,True
+baseline,N09,normal,质检员,AI-01 适用的药液粘度上限是多少？,适用药液粘度不超过 30 cP。［DI-AI01 v3.1 §3］,True,False,False,False,True
+baseline,N10,normal,质量经理,风险分析一共识别了多少项危害？,依据 YY/T 0316 进行风险分析，共识别 47 项危害。［RM-AI01 v2.0 §1］,True,False,False,False,True
+baseline,N11,normal,质量经理,提示音不响的根本原因是什么？,蜂鸣器焊点虚焊，供应商 B 的回流焊温度曲线偏低。［CAPA-2026-031 v1.0 §2］,True,False,False,False,True
+baseline,C01,code,质检员,CC-2026-014 变更的原因是什么？,高粘度药液临床反馈注射费力，风险评估 RM-AI01 将注射力过大列为中风险，需收紧控制。［CC-2026-014 v1.0 §2］,True,False,False,False,True
+baseline,C02,code,质检员,VR-AI01-07 一共测试了多少支样品？,共测试 60 支样品，平均注射时间 9.8 秒，最长 12.4 秒，全部满足设计输入中不超过 15 秒的要求。［VR-AI01-07 v1.0 §1］,True,False,False,False,True
+baseline,C03,code,质检员,SOP-QA-011 规定投诉多久内登记？,收到投诉后 1 个工作日内登记并分配编号。［SOP-QA-011 v1.2 §1］,True,False,False,False,True
+baseline,P01,permission,质检员,RM-AI01 风险管理报告识别了多少项危害？,依据 YY/T 0316 进行风险分析，共识别 47 项危害。［RM-AI01 v2.0 §1］,False,False,False,True,
+baseline,P02,permission,客服实习生,注射力测试每批抽多少支？,【已作废版本】每批成品随机抽取 10 支进行注射力测试。［SOP-QC-003 v1.0 §2］,False,False,False,True,
+baseline,P03,permission,质检员,提示音不响的根本原因是什么？,蜂鸣器焊点虚焊，供应商 B 的回流焊温度曲线偏低。［CAPA-2026-031 v1.0 §2］,False,False,False,True,
+baseline,P04,permission,客服实习生,CAPA-2026-031 采取了什么措施？,要求供应商 B 调整温度曲线，并对来料增加 100% 功能检测，持续 3 个月。［CAPA-2026-031 v1.0 §3］,False,False,False,True,
+baseline,X01,none,质检员,AI-01 的出厂价格是多少？,AI-01 用于患者在家中自行皮下注射高粘度药液，适用剂量 1.0–2.25 mL。［DI-AI01 v3.1 §1］,False,False,False,False,
+baseline,X02,none,质检员,AI-02 的设计输入是什么？,适用药液粘度不超过 30 cP。［DI-AI01 v3.1 §3］,False,False,False,False,
+baseline,X03,none,质量经理,今年的销售目标是多少？,【已作废版本】规定 AI-01 自动注射器注射力测试的方法和接收标准。［SOP-QC-003 v1.0 §1］,False,False,False,False,
+baseline,X04,none,质检员,公司食堂几点开饭？,蜂鸣器焊点虚焊，供应商 B 的回流焊温度曲线偏低。［CAPA-2026-031 v1.0 §2］,False,False,False,False,
+filters,V01,version,质检员,注射力测试每批抽多少支？,每批成品随机抽取 32 支进行注射力测试，抽样方案依据 GB/T 2828.1 一般检验水平 II。［SOP-QC-003 v2.0 §2］,True,False,False,False,True
+filters,V02,version,质检员,注射力合格的上限是多少牛？,单支注射力不超过 15 N 为合格；［SOP-QC-003 v2.0 §4］,True,False,False,False,True
+filters,V03,version,质检员,注射力测试的环境温度要求是多少？,测试环境温度 15–25°C，相对湿度 30%–65%，样品测试前需在该环境下平衡 4 小时。［SOP-QC-003 v2.0 §3］,True,False,False,False,True
+filters,V04,version,质量经理,注射力测试的湿度范围？,测试环境温度 15–25°C，相对湿度 30%–65%，样品测试前需在该环境下平衡 4 小时。［SOP-QC-003 v2.0 §3］,True,False,False,False,True
+filters,V05,version,质检员,注射力超标了怎么判定这一批？,任一支超过 15 N 即判该批不合格并启动偏差调查。［SOP-QC-003 v2.0 §4］,True,False,False,False,True
+filters,V06,version,质检员,注射力测试前样品要平衡多久？,测试环境温度 15–25°C，相对湿度 30%–65%，样品测试前需在该环境下平衡 4 小时。［SOP-QC-003 v2.0 §3］,True,False,False,False,True
+filters,H01,history,质检员,旧版注射力测试规程每批抽多少支？,【已作废版本】每批成品随机抽取 10 支进行注射力测试。［SOP-QC-003 v1.0 §2］,True,False,False,False,True
+filters,H02,history,质检员,注射力测试规程这次变更改了什么？,本版依据变更控制单 CC-2026-014 修订，抽样数由 10 支改为 32 支，接收上限由 20 N 改为 15 N。［SOP-QC-003 v2.0 §5］,True,False,False,False,
+filters,N01,normal,质检员,AI-01 单次注射时间要求不超过多少秒？,完成单次注射的时间不超过 15 秒；［DI-AI01 v3.1 §2］,True,False,False,False,True
+filters,N02,normal,质检员,设计验证里平均注射时间是多少？,共测试 60 支样品，平均注射时间 9.8 秒，最长 12.4 秒，全部满足设计输入中不超过 15 秒的要求。［VR-AI01-07 v1.0 §1］,True,False,False,False,True
+filters,N03,normal,客服实习生,注射器没用之前应该怎么储存？,未使用的注射器在 2–8°C 冷藏保存，使用前在室温放置 30 分钟。［IFU-AI01 v1.1 §1］,True,False,False,False,True
+filters,N04,normal,客服实习生,推荐在身体哪个部位注射？,推荐注射部位为腹部或大腿前侧，避开肚脐周围 5 厘米。［IFU-AI01 v1.1 §2］,True,False,False,False,True
+filters,N05,normal,质检员,一般客户投诉要在多少天内关闭？,一般投诉须在 30 个自然日内完成调查并关闭。［SOP-QA-011 v1.2 §3］,True,False,False,False,True
+filters,N06,normal,质检员,可能涉及不良事件的投诉多久内要上报？,涉及可能的不良事件时，须在 24 小时内上报质量负责人。［SOP-QA-011 v1.2 §2］,True,False,False,False,True
+filters,N07,normal,质检员,质检人员培训要在什么时候前完成？,所有质检人员须在 2026 年 7 月 1 日前完成培训并考核合格。［TR-QC-2026 v1.0 §2］,True,False,False,False,
+filters,N08,normal,客服实习生,注射完成后要按压几秒？,注射完成后保持按压 5 秒再移开，看到观察窗变色表示注射完成。［IFU-AI01 v1.1 §3］,True,False,False,False,True
+filters,N09,normal,质检员,AI-01 适用的药液粘度上限是多少？,适用药液粘度不超过 30 cP。［DI-AI01 v3.1 §3］,True,False,False,False,True
+filters,N10,normal,质量经理,风险分析一共识别了多少项危害？,依据 YY/T 0316 进行风险分析，共识别 47 项危害。［RM-AI01 v2.0 §1］,True,False,False,False,True
+filters,N11,normal,质量经理,提示音不响的根本原因是什么？,蜂鸣器焊点虚焊，供应商 B 的回流焊温度曲线偏低。［CAPA-2026-031 v1.0 §2］,True,False,False,False,True
+filters,C01,code,质检员,CC-2026-014 变更的原因是什么？,高粘度药液临床反馈注射费力，风险评估 RM-AI01 将注射力过大列为中风险，需收紧控制。［CC-2026-014 v1.0 §2］,True,False,False,False,True
+filters,C02,code,质检员,VR-AI01-07 一共测试了多少支样品？,共测试 60 支样品，平均注射时间 9.8 秒，最长 12.4 秒，全部满足设计输入中不超过 15 秒的要求。［VR-AI01-07 v1.0 §1］,True,False,False,False,True
+filters,C03,code,质检员,SOP-QA-011 规定投诉多久内登记？,收到投诉后 1 个工作日内登记并分配编号。［SOP-QA-011 v1.2 §1］,True,False,False,False,True
+filters,P01,permission,质检员,RM-AI01 风险管理报告识别了多少项危害？,NO_PERMISSION,True,True,False,False,
+filters,P02,permission,客服实习生,注射力测试每批抽多少支？,推荐注射部位为腹部或大腿前侧，避开肚脐周围 5 厘米。［IFU-AI01 v1.1 §2］,False,False,False,False,
+filters,P03,permission,质检员,提示音不响的根本原因是什么？,注射完成后有声音和视觉双重提示。［DI-AI01 v3.1 §2］,False,False,False,False,
+filters,P04,permission,客服实习生,CAPA-2026-031 采取了什么措施？,NO_PERMISSION,True,True,False,False,
+filters,X01,none,质检员,AI-01 的出厂价格是多少？,完成单次注射的时间不超过 15 秒；［DI-AI01 v3.1 §2］,False,False,False,False,
+filters,X02,none,质检员,AI-02 的设计输入是什么？,适用药液粘度不超过 30 cP。［DI-AI01 v3.1 §3］,False,False,False,False,
+filters,X03,none,质量经理,今年的销售目标是多少？,规定 AI-01 自动注射器注射力测试的方法和接收标准。［SOP-QC-003 v2.0 §1］,False,False,False,False,
+filters,X04,none,质检员,公司食堂几点开饭？,注射完成后保持按压 5 秒再移开，看到观察窗变色表示注射完成。［IFU-AI01 v1.1 §3］,False,False,False,False,
+full,V01,version,质检员,注射力测试每批抽多少支？,每批成品随机抽取 32 支进行注射力测试，抽样方案依据 GB/T 2828.1 一般检验水平 II。［SOP-QC-003 v2.0 §2］,True,False,False,False,True
+full,V02,version,质检员,注射力合格的上限是多少牛？,单支注射力不超过 15 N 为合格；［SOP-QC-003 v2.0 §4］,True,False,False,False,True
+full,V03,version,质检员,注射力测试的环境温度要求是多少？,测试环境温度 15–25°C，相对湿度 30%–65%，样品测试前需在该环境下平衡 4 小时。［SOP-QC-003 v2.0 §3］,True,False,False,False,True
+full,V04,version,质量经理,注射力测试的湿度范围？,测试环境温度 15–25°C，相对湿度 30%–65%，样品测试前需在该环境下平衡 4 小时。［SOP-QC-003 v2.0 §3］,True,False,False,False,True
+full,V05,version,质检员,注射力超标了怎么判定这一批？,任一支超过 15 N 即判该批不合格并启动偏差调查。［SOP-QC-003 v2.0 §4］,True,False,False,False,True
+full,V06,version,质检员,注射力测试前样品要平衡多久？,测试环境温度 15–25°C，相对湿度 30%–65%，样品测试前需在该环境下平衡 4 小时。［SOP-QC-003 v2.0 §3］,True,False,False,False,True
+full,H01,history,质检员,旧版注射力测试规程每批抽多少支？,【已作废版本】每批成品随机抽取 10 支进行注射力测试。［SOP-QC-003 v1.0 §2］,True,False,False,False,True
+full,H02,history,质检员,注射力测试规程这次变更改了什么？,本版依据变更控制单 CC-2026-014 修订，抽样数由 10 支改为 32 支，接收上限由 20 N 改为 15 N。［SOP-QC-003 v2.0 §5］,True,False,False,False,
+full,N01,normal,质检员,AI-01 单次注射时间要求不超过多少秒？,完成单次注射的时间不超过 15 秒；［DI-AI01 v3.1 §2］,True,False,False,False,True
+full,N02,normal,质检员,设计验证里平均注射时间是多少？,共测试 60 支样品，平均注射时间 9.8 秒，最长 12.4 秒，全部满足设计输入中不超过 15 秒的要求。［VR-AI01-07 v1.0 §1］,True,False,False,False,True
+full,N03,normal,客服实习生,注射器没用之前应该怎么储存？,未使用的注射器在 2–8°C 冷藏保存，使用前在室温放置 30 分钟。［IFU-AI01 v1.1 §1］,True,False,False,False,True
+full,N04,normal,客服实习生,推荐在身体哪个部位注射？,推荐注射部位为腹部或大腿前侧，避开肚脐周围 5 厘米。［IFU-AI01 v1.1 §2］,True,False,False,False,True
+full,N05,normal,质检员,一般客户投诉要在多少天内关闭？,一般投诉须在 30 个自然日内完成调查并关闭。［SOP-QA-011 v1.2 §3］,True,False,False,False,True
+full,N06,normal,质检员,可能涉及不良事件的投诉多久内要上报？,涉及可能的不良事件时，须在 24 小时内上报质量负责人。［SOP-QA-011 v1.2 §2］,True,False,False,False,True
+full,N07,normal,质检员,质检人员培训要在什么时候前完成？,所有质检人员须在 2026 年 7 月 1 日前完成培训并考核合格。［TR-QC-2026 v1.0 §2］,True,False,False,False,
+full,N08,normal,客服实习生,注射完成后要按压几秒？,注射完成后保持按压 5 秒再移开，看到观察窗变色表示注射完成。［IFU-AI01 v1.1 §3］,True,False,False,False,True
+full,N09,normal,质检员,AI-01 适用的药液粘度上限是多少？,适用药液粘度不超过 30 cP。［DI-AI01 v3.1 §3］,True,False,False,False,True
+full,N10,normal,质量经理,风险分析一共识别了多少项危害？,依据 YY/T 0316 进行风险分析，共识别 47 项危害。［RM-AI01 v2.0 §1］,True,False,False,False,True
+full,N11,normal,质量经理,提示音不响的根本原因是什么？,蜂鸣器焊点虚焊，供应商 B 的回流焊温度曲线偏低。［CAPA-2026-031 v1.0 §2］,True,False,False,False,True
+full,C01,code,质检员,CC-2026-014 变更的原因是什么？,高粘度药液临床反馈注射费力，风险评估 RM-AI01 将注射力过大列为中风险，需收紧控制。［CC-2026-014 v1.0 §2］,True,False,False,False,True
+full,C02,code,质检员,VR-AI01-07 一共测试了多少支样品？,共测试 60 支样品，平均注射时间 9.8 秒，最长 12.4 秒，全部满足设计输入中不超过 15 秒的要求。［VR-AI01-07 v1.0 §1］,True,False,False,False,True
+full,C03,code,质检员,SOP-QA-011 规定投诉多久内登记？,收到投诉后 1 个工作日内登记并分配编号。［SOP-QA-011 v1.2 §1］,True,False,False,False,True
+full,P01,permission,质检员,RM-AI01 风险管理报告识别了多少项危害？,NO_PERMISSION,True,True,False,False,
+full,P02,permission,客服实习生,注射力测试每批抽多少支？,NOT_FOUND,True,True,False,False,
+full,P03,permission,质检员,提示音不响的根本原因是什么？,NOT_FOUND,True,True,False,False,
+full,P04,permission,客服实习生,CAPA-2026-031 采取了什么措施？,NO_PERMISSION,True,True,False,False,
+full,X01,none,质检员,AI-01 的出厂价格是多少？,NOT_FOUND,True,True,False,False,
+full,X02,none,质检员,AI-02 的设计输入是什么？,NOT_FOUND,True,True,False,False,
+full,X03,none,质量经理,今年的销售目标是多少？,NOT_FOUND,True,True,False,False,
+full,X04,none,质检员,公司食堂几点开饭？,NOT_FOUND,True,True,False,False,

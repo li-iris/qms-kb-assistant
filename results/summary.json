@@ -1,0 +1,164 @@
+{
+  "baseline": {
+    "all": {
+      "n": 30,
+      "correct": 17,
+      "stale": 3,
+      "leaked": 4,
+      "cite_n": 16,
+      "cite_ok": 16
+    },
+    "version": {
+      "n": 6,
+      "correct": 2,
+      "stale": 3,
+      "leaked": 0,
+      "cite_n": 2,
+      "cite_ok": 2
+    },
+    "history": {
+      "n": 2,
+      "correct": 1,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 1,
+      "cite_ok": 1
+    },
+    "normal": {
+      "n": 11,
+      "correct": 11,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 10,
+      "cite_ok": 10
+    },
+    "code": {
+      "n": 3,
+      "correct": 3,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 3,
+      "cite_ok": 3
+    },
+    "permission": {
+      "n": 4,
+      "correct": 0,
+      "stale": 0,
+      "leaked": 4
+    },
+    "none": {
+      "n": 4,
+      "correct": 0,
+      "stale": 0,
+      "leaked": 0
+    }
+  },
+  "filters": {
+    "all": {
+      "n": 30,
+      "correct": 24,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 20,
+      "cite_ok": 20
+    },
+    "version": {
+      "n": 6,
+      "correct": 6,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 6,
+      "cite_ok": 6
+    },
+    "history": {
+      "n": 2,
+      "correct": 2,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 1,
+      "cite_ok": 1
+    },
+    "normal": {
+      "n": 11,
+      "correct": 11,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 10,
+      "cite_ok": 10
+    },
+    "code": {
+      "n": 3,
+      "correct": 3,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 3,
+      "cite_ok": 3
+    },
+    "permission": {
+      "n": 4,
+      "correct": 2,
+      "stale": 0,
+      "leaked": 0
+    },
+    "none": {
+      "n": 4,
+      "correct": 0,
+      "stale": 0,
+      "leaked": 0
+    }
+  },
+  "full": {
+    "all": {
+      "n": 30,
+      "correct": 30,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 20,
+      "cite_ok": 20
+    },
+    "version": {
+      "n": 6,
+      "correct": 6,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 6,
+      "cite_ok": 6
+    },
+    "history": {
+      "n": 2,
+      "correct": 2,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 1,
+      "cite_ok": 1
+    },
+    "normal": {
+      "n": 11,
+      "correct": 11,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 10,
+      "cite_ok": 10
+    },
+    "code": {
+      "n": 3,
+      "correct": 3,
+      "stale": 0,
+      "leaked": 0,
+      "cite_n": 3,
+      "cite_ok": 3
+    },
+    "permission": {
+      "n": 4,
+      "correct": 4,
+      "stale": 0,
+      "leaked": 0
+    },
+    "none": {
+      "n": 4,
+      "correct": 4,
+      "stale": 0,
+      "leaked": 0
+    }
+  }
+}
